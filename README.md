@@ -3,6 +3,7 @@ Image Cache
 
 An image download-and-cacher that also knows how to efficiently generate
 and retrieve thumbnails of various sizes.
+
 Android-Image-Cache是一个能够自动判断从内存还是网络获取图片、缓存可以自动回收、自动判断如何有效地生成并检索各种尺寸缩略图的图像download-and-cacher。
 
 
