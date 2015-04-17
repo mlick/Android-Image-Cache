@@ -3,6 +3,18 @@ Image Cache
 
 An image download-and-cacher that also knows how to efficiently generate
 and retrieve thumbnails of various sizes.
+Android-Image-Cache是一个能够自动判断从内存还是网络获取图片、缓存可以自动回收、自动判断如何有效地生成并检索各种尺寸缩略图的图像download-and-cacher。
+
+
+主要特点如下：
+
+只需提供一个适配器即可从光标读取本地、网络URL；
+基于一个已下载的图像自动生成并缓存多种尺寸图像；
+同时提供磁盘缓存和内存缓存；
+自动磁盘缓存管理；不需进行设置，但如果需要的话，参数可进行调整；
+根据现有设置进行运作；
+光标适配器支持一个ImageView中多个图像字段；当是null或为空时自动跳过；
+当加载光标时，光标适配器会有一个自动进度提示条。
 
 Features
 --------
